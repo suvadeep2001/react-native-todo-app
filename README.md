@@ -8,7 +8,12 @@
 
 npm install
 
+```
+## To start the app
+
+```sh
 export start
+
 ```
 
 ## You can install Expo app from playstore and run this app in your phone.
