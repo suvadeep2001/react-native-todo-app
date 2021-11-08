@@ -45,11 +45,11 @@ const App = () => {
       {/* <Text key={todo.id}>{todo.text}</Text> */}
       {/* ))} */}
       {/* </ScrollView> */}
-      <View>
+      <View style={{ width: "100%", marginTop: 10 }}>
         <FlatList
           data={todos}
           renderItem={({ item }) => (
-            <SingleTodo todo={item} todos={todos} setTodo={setTodos} />
+            <SingleTodo todo={item} todos={todos} setTodos={setTodos} />
           )}
           keyExtractor={(item) => item.id.toString()}
         />
