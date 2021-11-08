@@ -11,6 +11,7 @@ import {
   FlatList,
   // ScrollView,
 } from "react-native";
+import SingleTodo from "./components/SingleTodo";
 
 const App = () => {
   const [todo, setTodo] = useState("");
@@ -47,7 +48,9 @@ const App = () => {
       <View>
         <FlatList
           data={todos}
-          renderItem={({ item }) => <Text>{item.text}</Text>}
+          renderItem={({ item }) => (
+            <SingleTodo todo={item} todos={todos} setTodo={setTodos} />
+          )}
           keyExtractor={(item) => item.id.toString()}
         />
       </View>
