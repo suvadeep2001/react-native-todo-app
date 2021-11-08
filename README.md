@@ -1,6 +1,6 @@
 # react-native-todo-app
 
-## This is a react native todo application. You can go and add your works here.
+✨## This is a react native todo application. You can go and add your works here.✨-
 
 ## Installation
 
