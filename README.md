@@ -20,8 +20,9 @@ export start
 
 ## npm package installation
 
-```sh
 ## To install vector-icons use this command
+```sh
+
 
 npm i react-native-vector-icons
 ```
