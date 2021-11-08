@@ -16,7 +16,7 @@ export start
 
 ```
 
-## You can install Expo app from playstore and run this app in your phone.
+##✨ You can install Expo app from playstore and run this app in your phone.✨-
 
 ## npm package installation
 
@@ -27,7 +27,7 @@ export start
 npm i react-native-vector-icons
 ```
 
-## To install react-native-async-storage use this command
+✨## To install react-native-async-storage use this command✨-
 
 ```sh
 npm i @react-native-async-storage/async-storage
